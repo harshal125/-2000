@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ .harshal{
+    background-image: url("harshal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+.clr{
+    color: white;
+}
+.hit{
+    height: 100%;
+}
+.nbr{
+    color: rgb(155, 150, 148);
+}
+.cls{
+    background-color: #f0f1f3;
+    color: black;
+}
+
+.ft{
+    position: relative;
+    top: 15px;
+}
+
+.Signin {
+    font-size: 15px;
+    margin-top: 14px;
+    width: 68px;
+}
+.Logout {
+    font-size: 15px;
+    margin-top: 14px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 940px) {
+    .carousel-item img{
+        height: 500px;
+    }
+  }
+  
+@media screen and (max-width: 700px) {
+    .carousel-item img{
+        height: 350px;
+    }
+  }
+  
+@media screen and (max-width: 500px) {
+    .carousel-item img{
+        height: 300px;
+    }
+    .visually-hidden{
+        display: none;
+    }
+   
+}
